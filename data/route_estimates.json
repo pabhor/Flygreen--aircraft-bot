@@ -1,0 +1,251 @@
+{
+  "_meta": {
+    "description": "Curated local snapshot of Flygreen 'Popular Route Estimates'. Prices are USD, one-way, public indicative estimates. null = 'N/A' on the source page (no published estimate).",
+    "source_url": "https://www.flygreen.co/popular-route-estimates",
+    "curated_on": "2026-10-08",
+    "currency": "USD",
+    "source_caveat": "No taxes, airport fees vary, all routes pricing is based on one ways.",
+    "hourly_reference_rates": {
+      "light_jet": 3000,
+      "mid_size_jet": 4000,
+      "super_mid_size_jet": 4800,
+      "heavy_jet": 5800
+    }
+  },
+  "routes": [
+    {
+      "region": "US",
+      "origin": "New York",
+      "destination": "South Florida",
+      "category_prices": {
+        "light_jet": 13000,
+        "mid_size_jet": 15000,
+        "super_mid_size_jet": 20000,
+        "heavy_jet": 25000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "US",
+      "origin": "South Florida",
+      "destination": "Los Angeles",
+      "category_prices": {
+        "light_jet": 21000,
+        "mid_size_jet": 26000,
+        "super_mid_size_jet": 32000,
+        "heavy_jet": 43000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "US",
+      "origin": "Los Angeles",
+      "destination": "New York",
+      "category_prices": {
+        "light_jet": 21000,
+        "mid_size_jet": 26000,
+        "super_mid_size_jet": 32000,
+        "heavy_jet": 43000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "US",
+      "origin": "Los Angeles",
+      "destination": "Las Vegas",
+      "category_prices": {
+        "light_jet": 5000,
+        "mid_size_jet": 6500,
+        "super_mid_size_jet": 9000,
+        "heavy_jet": 12000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "US",
+      "origin": "Los Angeles",
+      "destination": "Phoenix",
+      "category_prices": {
+        "light_jet": 5000,
+        "mid_size_jet": 6500,
+        "super_mid_size_jet": 9000,
+        "heavy_jet": 12000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "US",
+      "origin": "Houston",
+      "destination": "New York",
+      "category_prices": {
+        "light_jet": 14000,
+        "mid_size_jet": 17000,
+        "super_mid_size_jet": 22000,
+        "heavy_jet": 30000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "US",
+      "origin": "Boston",
+      "destination": "Naples",
+      "category_prices": {
+        "light_jet": 14000,
+        "mid_size_jet": 17000,
+        "super_mid_size_jet": 22000,
+        "heavy_jet": 30000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Europe",
+      "origin": "London",
+      "destination": "Nice",
+      "category_prices": {
+        "light_jet": 6000,
+        "mid_size_jet": 10500,
+        "super_mid_size_jet": 14500,
+        "heavy_jet": 18000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Europe",
+      "origin": "Frankfurt",
+      "destination": "Paris",
+      "category_prices": {
+        "light_jet": 5500,
+        "mid_size_jet": 9000,
+        "super_mid_size_jet": 13500,
+        "heavy_jet": 16000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Europe",
+      "origin": "Madrid",
+      "destination": "Ibiza",
+      "category_prices": {
+        "light_jet": 5500,
+        "mid_size_jet": 9000,
+        "super_mid_size_jet": 13500,
+        "heavy_jet": 16000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Europe",
+      "origin": "Paris",
+      "destination": "Milan",
+      "category_prices": {
+        "light_jet": 5500,
+        "mid_size_jet": 9000,
+        "super_mid_size_jet": 13500,
+        "heavy_jet": 16000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Europe",
+      "origin": "Moscow",
+      "destination": "London",
+      "category_prices": {
+        "light_jet": 22000,
+        "mid_size_jet": 28000,
+        "super_mid_size_jet": 35000,
+        "heavy_jet": 42000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Europe",
+      "origin": "Istanbul",
+      "destination": "London",
+      "category_prices": {
+        "light_jet": 22000,
+        "mid_size_jet": 28000,
+        "super_mid_size_jet": 35000,
+        "heavy_jet": 42000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Transatlantic",
+      "origin": "Los Angeles",
+      "destination": "London",
+      "category_prices": {
+        "light_jet": null,
+        "mid_size_jet": null,
+        "super_mid_size_jet": null,
+        "heavy_jet": 105000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Transatlantic",
+      "origin": "New York",
+      "destination": "London",
+      "category_prices": {
+        "light_jet": null,
+        "mid_size_jet": null,
+        "super_mid_size_jet": null,
+        "heavy_jet": 95000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Transatlantic",
+      "origin": "New York",
+      "destination": "Paris",
+      "category_prices": {
+        "light_jet": null,
+        "mid_size_jet": null,
+        "super_mid_size_jet": null,
+        "heavy_jet": 98000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Transatlantic",
+      "origin": "Nassau",
+      "destination": "Moscow",
+      "category_prices": {
+        "light_jet": null,
+        "mid_size_jet": null,
+        "super_mid_size_jet": null,
+        "heavy_jet": 110000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    },
+    {
+      "region": "Transatlantic",
+      "origin": "Miami",
+      "destination": "Rome",
+      "category_prices": {
+        "light_jet": null,
+        "mid_size_jet": null,
+        "super_mid_size_jet": null,
+        "heavy_jet": 105000
+      },
+      "source_url": "https://www.flygreen.co/popular-route-estimates",
+      "price_basis": "one_way_estimate"
+    }
+  ]
+}

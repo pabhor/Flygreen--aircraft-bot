@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "description": "Curated subset of the Flygreen Aircraft Guide. Each record's model name, category and passenger capacity were checked against the live guide on the curated date. No other attributes (range, baggage, cabin size) are stored because they were not verified.",
+    "source_url": "https://www.flygreen.co/aircraft-guide",
+    "curated_on": "2026-10-08"
+  },
+  "aircraft": [
+    {
+      "model_name": "Citation CJ1",
+      "category": "light_jet",
+      "passenger_capacity": 5,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation CJ2",
+      "category": "light_jet",
+      "passenger_capacity": 6,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation CJ3",
+      "category": "light_jet",
+      "passenger_capacity": 6,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation CJ4",
+      "category": "light_jet",
+      "passenger_capacity": 6,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Phenom 300",
+      "category": "light_jet",
+      "passenger_capacity": 7,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Hawker 400XP",
+      "category": "light_jet",
+      "passenger_capacity": 7,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation Excel",
+      "category": "mid_size_jet",
+      "passenger_capacity": 8,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation XLS",
+      "category": "mid_size_jet",
+      "passenger_capacity": 8,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Hawker 800",
+      "category": "mid_size_jet",
+      "passenger_capacity": 8,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Lear 45/XR",
+      "category": "mid_size_jet",
+      "passenger_capacity": 8,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Challenger 300",
+      "category": "super_mid_size_jet",
+      "passenger_capacity": 9,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation Sovereign",
+      "category": "super_mid_size_jet",
+      "passenger_capacity": 8,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Citation X",
+      "category": "super_mid_size_jet",
+      "passenger_capacity": 8,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Falcon 50",
+      "category": "super_mid_size_jet",
+      "passenger_capacity": 9,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Gulfstream 200",
+      "category": "super_mid_size_jet",
+      "passenger_capacity": 9,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Challenger 600",
+      "category": "heavy_jet",
+      "passenger_capacity": 11,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Challenger 604",
+      "category": "heavy_jet",
+      "passenger_capacity": 10,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Challenger 650",
+      "category": "heavy_jet",
+      "passenger_capacity": 12,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Falcon 900",
+      "category": "heavy_jet",
+      "passenger_capacity": 13,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Gulfstream 500",
+      "category": "heavy_jet",
+      "passenger_capacity": 14,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    },
+    {
+      "model_name": "Gulfstream 550",
+      "category": "heavy_jet",
+      "passenger_capacity": 14,
+      "source_url": "https://www.flygreen.co/aircraft-guide"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+city,country,region,continent,lat,lon
+New York,USA,US,Americas,40.71,-74.01
+Boston,USA,US,Americas,42.36,-71.06
+Chicago,USA,US,Americas,41.88,-87.63
+South Florida,USA,US,Americas,26.12,-80.14
+Miami,USA,US,Americas,25.76,-80.19
+Naples,USA,US,Americas,26.14,-81.79
+Houston,USA,US,Americas,29.76,-95.37
+Aspen,USA,US,Americas,39.19,-106.82
+Phoenix,USA,US,Americas,33.45,-112.07
+Las Vegas,USA,US,Americas,36.17,-115.14
+Los Angeles,USA,US,Americas,34.05,-118.24
+San Francisco,USA,US,Americas,37.77,-122.42
+Nassau,Bahamas,Caribbean,Americas,25.04,-77.35
+London,UK,Europe,Europe,51.51,-0.13
+Paris,France,Europe,Europe,48.86,2.35
+Nice,France,Europe,Europe,43.7,7.27
+Geneva,Switzerland,Europe,Europe,46.2,6.14
+Frankfurt,Germany,Europe,Europe,50.11,8.68
+Milan,Italy,Europe,Europe,45.46,9.19
+Rome,Italy,Europe,Europe,41.9,12.5
+Madrid,Spain,Europe,Europe,40.42,-3.7
+Ibiza,Spain,Europe,Europe,38.91,1.43
+Istanbul,Turkey,Europe,Europe,41.01,28.98
+Moscow,Russia,Europe,Europe,55.76,37.62

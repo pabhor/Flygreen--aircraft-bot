@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe --version; .\\\\venv\\\\Scripts\\\\python.exe \"$env:TEMP\\\\claude\\\\c--Users-prabh-OneDrive-Desktop-Code-flygreen-ai-charter-assistant-flygreen-ai-charter-assistant\\\\2410439e-fd4b-435e-9e13-ebc86d897fea\\\\scratchpad\\\\fetch.py\")",
+      "PowerShell(py -3.12 \"$env:TEMP\\\\claude\\\\c--Users-prabh-OneDrive-Desktop-Code-flygreen-ai-charter-assistant-flygreen-ai-charter-assistant\\\\2410439e-fd4b-435e-9e13-ebc86d897fea\\\\scratchpad\\\\fetch.py\")",
+      "PowerShell($sp=\"$env:TEMP\\\\claude\\\\c--Users-prabh-OneDrive-Desktop-Code-flygreen-ai-charter-assistant-flygreen-ai-charter-assistant\\\\2410439e-fd4b-435e-9e13-ebc86d897fea\\\\scratchpad\"; py -3.12 \"$sp\\\\fetch.py\" https://www.flygreen.co/aircraft-guide/citation-encore; $t=[IO.File]::ReadAllText\\(\"$sp\\\\citation-encore.html\"\\); $i=$t.IndexOf\\('PASSENGERS'\\); if\\($i -lt 0\\){$i=$t.IndexOf\\('Passengers'\\)}; $t.Substring\\([Math]::Max\\(0,$i-600\\),3500\\))"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+# Runtime
+streamlit==1.65.0
+openai==3.26.1
+python-dotenv==1.2.3
+pandas==3.0.6
+
+# Scraping + NLP
+requests==2.34.2
+beautifulsoup4==4.15.0
+textblob==0.20.1
+
+# Tests
+pytest==9.1.1

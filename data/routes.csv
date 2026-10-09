@@ -1,0 +1,553 @@
+route_id,origin,destination,distance_nm,crosses_ocean
+new-york|boston,New York,Boston,174,0
+new-york|chicago,New York,Chicago,649,0
+new-york|south-florida,New York,South Florida,974,0
+new-york|miami,New York,Miami,997,0
+new-york|naples,New York,Naples,1005,0
+new-york|houston,New York,Houston,1293,0
+new-york|aspen,New York,Aspen,1579,0
+new-york|phoenix,New York,Phoenix,1952,0
+new-york|las-vegas,New York,Las Vegas,2032,0
+new-york|los-angeles,New York,Los Angeles,2231,0
+new-york|san-francisco,New York,San Francisco,2341,0
+new-york|nassau,New York,Nassau,1003,0
+new-york|london,New York,London,3158,1
+new-york|paris,New York,Paris,3310,1
+new-york|nice,New York,Nice,3640,1
+new-york|geneva,New York,Geneva,3525,1
+new-york|frankfurt,New York,Frankfurt,3517,1
+new-york|milan,New York,Milan,3665,1
+new-york|rome,New York,Rome,3907,1
+new-york|madrid,New York,Madrid,3271,1
+new-york|ibiza,New York,Ibiza,3536,1
+new-york|istanbul,New York,Istanbul,4575,1
+new-york|moscow,New York,Moscow,4258,1
+boston|new-york,Boston,New York,174,0
+boston|chicago,Boston,Chicago,774,0
+boston|south-florida,Boston,South Florida,1126,0
+boston|miami,Boston,Miami,1148,0
+boston|naples,Boston,Naples,1163,0
+boston|houston,Boston,Houston,1463,0
+boston|aspen,Boston,Aspen,1706,0
+boston|phoenix,Boston,Phoenix,2094,0
+boston|las-vegas,Boston,Las Vegas,2162,0
+boston|los-angeles,Boston,Los Angeles,2364,0
+boston|san-francisco,Boston,San Francisco,2457,0
+boston|nassau,Boston,Nassau,1140,0
+boston|london,Boston,London,2984,1
+boston|paris,Boston,Paris,3136,1
+boston|nice,Boston,Nice,3467,1
+boston|geneva,Boston,Geneva,3351,1
+boston|frankfurt,Boston,Frankfurt,3343,1
+boston|milan,Boston,Milan,3492,1
+boston|rome,Boston,Rome,3734,1
+boston|madrid,Boston,Madrid,3102,1
+boston|ibiza,Boston,Ibiza,3367,1
+boston|istanbul,Boston,Istanbul,4402,1
+boston|moscow,Boston,Moscow,4093,1
+chicago|new-york,Chicago,New York,649,0
+chicago|boston,Chicago,Boston,774,0
+chicago|south-florida,Chicago,South Florida,1067,0
+chicago|miami,Chicago,Miami,1087,0
+chicago|naples,Chicago,Naples,1037,0
+chicago|houston,Chicago,Houston,860,0
+chicago|aspen,Chicago,Aspen,933,0
+chicago|phoenix,Chicago,Phoenix,1324,0
+chicago|las-vegas,Chicago,Las Vegas,1388,0
+chicago|los-angeles,Chicago,Los Angeles,1590,0
+chicago|san-francisco,Chicago,San Francisco,1692,0
+chicago|nassau,Chicago,Nassau,1189,0
+chicago|london,Chicago,London,3602,1
+chicago|paris,Chicago,Paris,3770,1
+chicago|nice,Chicago,Nice,4127,1
+chicago|geneva,Chicago,Geneva,3996,1
+chicago|frankfurt,Chicago,Frankfurt,3948,1
+chicago|milan,Chicago,Milan,4133,1
+chicago|rome,Chicago,Rome,4389,1
+chicago|madrid,Chicago,Madrid,3813,1
+chicago|ibiza,Chicago,Ibiza,4073,1
+chicago|istanbul,Chicago,Istanbul,4997,1
+chicago|moscow,Chicago,Moscow,4535,1
+south-florida|new-york,South Florida,New York,974,0
+south-florida|boston,South Florida,Boston,1126,0
+south-florida|chicago,South Florida,Chicago,1067,0
+south-florida|miami,South Florida,Miami,23,0
+south-florida|naples,South Florida,Naples,93,0
+south-florida|houston,South Florida,Houston,878,0
+south-florida|aspen,South Florida,Aspen,1629,0
+south-florida|phoenix,South Florida,Phoenix,1799,0
+south-florida|las-vegas,South Florida,Las Vegas,1979,0
+south-florida|los-angeles,South Florida,Los Angeles,2125,0
+south-florida|san-francisco,South Florida,San Francisco,2356,0
+south-florida|nassau,South Florida,Nassau,173,0
+south-florida|london,South Florida,London,4022,1
+south-florida|paris,South Florida,Paris,4153,1
+south-florida|nice,South Florida,Nice,4446,1
+south-florida|geneva,South Florida,Geneva,4351,1
+south-florida|frankfurt,South Florida,Frankfurt,4384,1
+south-florida|milan,South Florida,Milan,4493,1
+south-florida|rome,South Florida,Rome,4712,1
+south-florida|madrid,South Florida,Madrid,4005,1
+south-florida|ibiza,South Florida,Ibiza,4270,1
+south-florida|istanbul,South Florida,Istanbul,5432,1
+south-florida|moscow,South Florida,Moscow,5208,1
+miami|new-york,Miami,New York,997,0
+miami|boston,Miami,Boston,1148,0
+miami|chicago,Miami,Chicago,1087,0
+miami|south-florida,Miami,South Florida,23,0
+miami|naples,Miami,Naples,94,0
+miami|houston,Miami,Houston,883,0
+miami|aspen,Miami,Aspen,1641,0
+miami|phoenix,Miami,Phoenix,1805,0
+miami|las-vegas,Miami,Las Vegas,1987,0
+miami|los-angeles,Miami,Los Angeles,2131,0
+miami|san-francisco,Miami,San Francisco,2364,0
+miami|nassau,Miami,Nassau,168,0
+miami|london,Miami,London,4041,1
+miami|paris,Miami,Paris,4171,1
+miami|nice,Miami,Nice,4462,1
+miami|geneva,Miami,Geneva,4368,1
+miami|frankfurt,Miami,Frankfurt,4402,1
+miami|milan,Miami,Milan,4510,1
+miami|rome,Miami,Rome,4728,1
+miami|madrid,Miami,Madrid,4020,1
+miami|ibiza,Miami,Ibiza,4285,1
+miami|istanbul,Miami,Istanbul,5450,1
+miami|moscow,Miami,Moscow,5229,1
+naples|new-york,Naples,New York,1005,0
+naples|boston,Naples,Boston,1163,0
+naples|chicago,Naples,Chicago,1037,0
+naples|south-florida,Naples,South Florida,93,0
+naples|miami,Naples,Miami,94,0
+naples|houston,Naples,Houston,789,0
+naples|aspen,Naples,Aspen,1554,0
+naples|phoenix,Naples,Phoenix,1713,0
+naples|las-vegas,Naples,Las Vegas,1896,0
+naples|los-angeles,Naples,Los Angeles,2038,0
+naples|san-francisco,Naples,San Francisco,2273,0
+naples|nassau,Naples,Nassau,262,0
+naples|london,Naples,London,4085,1
+naples|paris,Naples,Paris,4219,1
+naples|nice,Naples,Nice,4516,1
+naples|geneva,Naples,Geneva,4419,1
+naples|frankfurt,Naples,Frankfurt,4446,1
+naples|milan,Naples,Milan,4561,1
+naples|rome,Naples,Rome,4783,1
+naples|madrid,Naples,Madrid,4081,1
+naples|ibiza,Naples,Ibiza,4347,1
+naples|istanbul,Naples,Istanbul,5497,1
+naples|moscow,Naples,Moscow,5253,1
+houston|new-york,Houston,New York,1293,0
+houston|boston,Houston,Boston,1463,0
+houston|chicago,Houston,Chicago,860,0
+houston|south-florida,Houston,South Florida,878,0
+houston|miami,Houston,Miami,883,0
+houston|naples,Houston,Naples,789,0
+houston|aspen,Houston,Aspen,840,0
+houston|phoenix,Houston,Phoenix,925,0
+houston|las-vegas,Houston,Las Vegas,1118,0
+houston|los-angeles,Houston,Los Angeles,1251,0
+houston|san-francisco,Houston,San Francisco,1498,0
+houston|nassau,Houston,Nassau,1050,0
+houston|london,Houston,London,4424,1
+houston|paris,Houston,Paris,4584,1
+houston|nice,Houston,Nice,4926,1
+houston|geneva,Houston,Geneva,4804,1
+houston|frankfurt,Houston,Frankfurt,4777,1
+houston|milan,Houston,Milan,4944,1
+houston|rome,Houston,Rome,5191,1
+houston|madrid,Houston,Madrid,4563,1
+houston|ibiza,Houston,Ibiza,4829,1
+houston|istanbul,Houston,Istanbul,5832,1
+houston|moscow,Houston,Moscow,5394,1
+aspen|new-york,Aspen,New York,1579,0
+aspen|boston,Aspen,Boston,1706,0
+aspen|chicago,Aspen,Chicago,933,0
+aspen|south-florida,Aspen,South Florida,1629,0
+aspen|miami,Aspen,Miami,1641,0
+aspen|naples,Aspen,Naples,1554,0
+aspen|houston,Aspen,Houston,840,0
+aspen|phoenix,Aspen,Phoenix,449,0
+aspen|las-vegas,Aspen,Las Vegas,456,0
+aspen|los-angeles,Aspen,Los Angeles,662,0
+aspen|san-francisco,Aspen,San Francisco,774,0
+aspen|nassau,Aspen,Nassau,1797,0
+aspen|london,Aspen,London,4359,1
+aspen|paris,Aspen,Paris,4541,1
+aspen|nice,Aspen,Nice,4918,1
+aspen|geneva,Aspen,Geneva,4773,1
+aspen|frankfurt,Aspen,Frankfurt,4683,1
+aspen|milan,Aspen,Milan,4902,1
+aspen|rome,Aspen,Rome,5168,1
+aspen|madrid,Aspen,Madrid,4665,1
+aspen|ibiza,Aspen,Ibiza,4917,1
+aspen|istanbul,Aspen,Istanbul,5691,1
+aspen|moscow,Aspen,Moscow,5066,1
+phoenix|new-york,Phoenix,New York,1952,0
+phoenix|boston,Phoenix,Boston,2094,0
+phoenix|chicago,Phoenix,Chicago,1324,0
+phoenix|south-florida,Phoenix,South Florida,1799,0
+phoenix|miami,Phoenix,Miami,1805,0
+phoenix|naples,Phoenix,Naples,1713,0
+phoenix|houston,Phoenix,Houston,925,0
+phoenix|aspen,Phoenix,Aspen,449,0
+phoenix|las-vegas,Phoenix,Las Vegas,234,0
+phoenix|los-angeles,Phoenix,Los Angeles,326,0
+phoenix|san-francisco,Phoenix,San Francisco,596,0
+phoenix|nassau,Phoenix,Nassau,1972,0
+phoenix|london,Phoenix,London,4808,1
+phoenix|paris,Phoenix,Paris,4990,1
+phoenix|nice,Phoenix,Nice,5366,1
+phoenix|geneva,Phoenix,Geneva,5222,1
+phoenix|frankfurt,Phoenix,Frankfurt,5132,1
+phoenix|milan,Phoenix,Milan,5351,1
+phoenix|rome,Phoenix,Rome,5617,1
+phoenix|madrid,Phoenix,Madrid,5104,1
+phoenix|ibiza,Phoenix,Ibiza,5358,1
+phoenix|istanbul,Phoenix,Istanbul,6137,1
+phoenix|moscow,Phoenix,Moscow,5492,1
+las-vegas|new-york,Las Vegas,New York,2032,0
+las-vegas|boston,Las Vegas,Boston,2162,0
+las-vegas|chicago,Las Vegas,Chicago,1388,0
+las-vegas|south-florida,Las Vegas,South Florida,1979,0
+las-vegas|miami,Las Vegas,Miami,1987,0
+las-vegas|naples,Las Vegas,Naples,1896,0
+las-vegas|houston,Las Vegas,Houston,1118,0
+las-vegas|aspen,Las Vegas,Aspen,456,0
+las-vegas|phoenix,Las Vegas,Phoenix,234,0
+las-vegas|los-angeles,Las Vegas,Los Angeles,208,0
+las-vegas|san-francisco,Las Vegas,San Francisco,380,0
+las-vegas|nassau,Las Vegas,Nassau,2151,0
+las-vegas|london,Las Vegas,London,4763,1
+las-vegas|paris,Las Vegas,Paris,4949,1
+las-vegas|nice,Las Vegas,Nice,5330,1
+las-vegas|geneva,Las Vegas,Geneva,5182,1
+las-vegas|frankfurt,Las Vegas,Frankfurt,5076,1
+las-vegas|milan,Las Vegas,Milan,5307,1
+las-vegas|rome,Las Vegas,Rome,5576,1
+las-vegas|madrid,Las Vegas,Madrid,5101,1
+las-vegas|ibiza,Las Vegas,Ibiza,5349,1
+las-vegas|istanbul,Las Vegas,Istanbul,6059,1
+las-vegas|moscow,Las Vegas,Moscow,5370,1
+los-angeles|new-york,Los Angeles,New York,2231,0
+los-angeles|boston,Los Angeles,Boston,2364,0
+los-angeles|chicago,Los Angeles,Chicago,1590,0
+los-angeles|south-florida,Los Angeles,South Florida,2125,0
+los-angeles|miami,Los Angeles,Miami,2131,0
+los-angeles|naples,Los Angeles,Naples,2038,0
+los-angeles|houston,Los Angeles,Houston,1251,0
+los-angeles|aspen,Los Angeles,Aspen,662,0
+los-angeles|phoenix,Los Angeles,Phoenix,326,0
+los-angeles|las-vegas,Los Angeles,Las Vegas,208,0
+los-angeles|san-francisco,Los Angeles,San Francisco,317,0
+los-angeles|nassau,Los Angeles,Nassau,2297,0
+los-angeles|london,Los Angeles,London,4964,1
+los-angeles|paris,Los Angeles,Paris,5151,1
+los-angeles|nice,Los Angeles,Nice,5533,1
+los-angeles|geneva,Los Angeles,Geneva,5383,1
+los-angeles|frankfurt,Los Angeles,Frankfurt,5274,1
+los-angeles|milan,Los Angeles,Milan,5508,1
+los-angeles|rome,Los Angeles,Rome,5777,1
+los-angeles|madrid,Los Angeles,Madrid,5308,1
+los-angeles|ibiza,Los Angeles,Ibiza,5556,1
+los-angeles|istanbul,Los Angeles,Istanbul,6248,1
+los-angeles|moscow,Los Angeles,Moscow,5539,1
+san-francisco|new-york,San Francisco,New York,2341,0
+san-francisco|boston,San Francisco,Boston,2457,0
+san-francisco|chicago,San Francisco,Chicago,1692,0
+san-francisco|south-florida,San Francisco,South Florida,2356,0
+san-francisco|miami,San Francisco,Miami,2364,0
+san-francisco|naples,San Francisco,Naples,2273,0
+san-francisco|houston,San Francisco,Houston,1498,0
+san-francisco|aspen,San Francisco,Aspen,774,0
+san-francisco|phoenix,San Francisco,Phoenix,596,0
+san-francisco|las-vegas,San Francisco,Las Vegas,380,0
+san-francisco|los-angeles,San Francisco,Los Angeles,317,0
+san-francisco|nassau,San Francisco,Nassau,2527,0
+san-francisco|london,San Francisco,London,4885,1
+san-francisco|paris,San Francisco,Paris,5076,1
+san-francisco|nice,San Francisco,Nice,5464,1
+san-francisco|geneva,San Francisco,Geneva,5308,1
+san-francisco|frankfurt,San Francisco,Frankfurt,5179,1
+san-francisco|milan,San Francisco,Milan,5427,1
+san-francisco|rome,San Francisco,Rome,5697,1
+san-francisco|madrid,San Francisco,Madrid,5283,1
+san-francisco|ibiza,San Francisco,Ibiza,5522,1
+san-francisco|istanbul,San Francisco,Istanbul,6115,1
+san-francisco|moscow,San Francisco,Moscow,5355,1
+nassau|new-york,Nassau,New York,1003,0
+nassau|boston,Nassau,Boston,1140,0
+nassau|chicago,Nassau,Chicago,1189,0
+nassau|south-florida,Nassau,South Florida,173,0
+nassau|miami,Nassau,Miami,168,0
+nassau|naples,Nassau,Naples,262,0
+nassau|houston,Nassau,Houston,1050,0
+nassau|aspen,Nassau,Aspen,1797,0
+nassau|phoenix,Nassau,Phoenix,1972,0
+nassau|las-vegas,Nassau,Las Vegas,2151,0
+nassau|los-angeles,Nassau,Los Angeles,2297,0
+nassau|san-francisco,Nassau,San Francisco,2527,0
+nassau|london,Nassau,London,3963,1
+nassau|paris,Nassau,Paris,4087,1
+nassau|nice,Nassau,Nice,4367,1
+nassau|geneva,Nassau,Geneva,4279,1
+nassau|frankfurt,Nassau,Frankfurt,4324,1
+nassau|milan,Nassau,Milan,4421,1
+nassau|rome,Nassau,Rome,4632,1
+nassau|madrid,Nassau,Madrid,3912,1
+nassau|ibiza,Nassau,Ibiza,4175,1
+nassau|istanbul,Nassau,Istanbul,5365,1
+nassau|moscow,Nassau,Moscow,5186,1
+london|new-york,London,New York,3158,1
+london|boston,London,Boston,2984,1
+london|chicago,London,Chicago,3602,1
+london|south-florida,London,South Florida,4022,1
+london|miami,London,Miami,4041,1
+london|naples,London,Naples,4085,1
+london|houston,London,Houston,4424,1
+london|aspen,London,Aspen,4359,1
+london|phoenix,London,Phoenix,4808,1
+london|las-vegas,London,Las Vegas,4763,1
+london|los-angeles,London,Los Angeles,4964,1
+london|san-francisco,London,San Francisco,4885,1
+london|nassau,London,Nassau,3963,1
+london|paris,London,Paris,195,0
+london|nice,London,Nice,584,0
+london|geneva,London,Geneva,424,0
+london|frankfurt,London,Frankfurt,362,0
+london|milan,London,Milan,544,0
+london|rome,London,Rome,813,0
+london|madrid,London,Madrid,716,0
+london|ibiza,London,Ibiza,797,0
+london|istanbul,London,Istanbul,1418,0
+london|moscow,London,Moscow,1418,0
+paris|new-york,Paris,New York,3310,1
+paris|boston,Paris,Boston,3136,1
+paris|chicago,Paris,Chicago,3770,1
+paris|south-florida,Paris,South Florida,4153,1
+paris|miami,Paris,Miami,4171,1
+paris|naples,Paris,Naples,4219,1
+paris|houston,Paris,Houston,4584,1
+paris|aspen,Paris,Aspen,4541,1
+paris|phoenix,Paris,Phoenix,4990,1
+paris|las-vegas,Paris,Las Vegas,4949,1
+paris|los-angeles,Paris,Los Angeles,5151,1
+paris|san-francisco,Paris,San Francisco,5076,1
+paris|nassau,Paris,Nassau,4087,1
+paris|london,Paris,London,195,0
+paris|nice,Paris,Nice,389,0
+paris|geneva,Paris,Geneva,233,0
+paris|frankfurt,Paris,Frankfurt,271,0
+paris|milan,Paris,Milan,363,0
+paris|rome,Paris,Rome,627,0
+paris|madrid,Paris,Madrid,597,0
+paris|ibiza,Paris,Ibiza,629,0
+paris|istanbul,Paris,Istanbul,1279,0
+paris|moscow,Paris,Moscow,1410,0
+nice|new-york,Nice,New York,3640,1
+nice|boston,Nice,Boston,3467,1
+nice|chicago,Nice,Chicago,4127,1
+nice|south-florida,Nice,South Florida,4446,1
+nice|miami,Nice,Miami,4462,1
+nice|naples,Nice,Naples,4516,1
+nice|houston,Nice,Houston,4926,1
+nice|aspen,Nice,Aspen,4918,1
+nice|phoenix,Nice,Phoenix,5366,1
+nice|las-vegas,Nice,Las Vegas,5330,1
+nice|los-angeles,Nice,Los Angeles,5533,1
+nice|san-francisco,Nice,San Francisco,5464,1
+nice|nassau,Nice,Nassau,4367,1
+nice|london,Nice,London,584,0
+nice|paris,Nice,Paris,389,0
+nice|geneva,Nice,Geneva,165,0
+nice|frankfurt,Nice,Frankfurt,409,0
+nice|milan,Nice,Milan,141,0
+nice|rome,Nice,Rome,267,0
+nice|madrid,Nice,Madrid,553,0
+nice|ibiza,Nice,Ibiza,409,0
+nice|istanbul,Nice,Istanbul,1022,0
+nice|moscow,Nice,Moscow,1434,0
+geneva|new-york,Geneva,New York,3525,1
+geneva|boston,Geneva,Boston,3351,1
+geneva|chicago,Geneva,Chicago,3996,1
+geneva|south-florida,Geneva,South Florida,4351,1
+geneva|miami,Geneva,Miami,4368,1
+geneva|naples,Geneva,Naples,4419,1
+geneva|houston,Geneva,Houston,4804,1
+geneva|aspen,Geneva,Aspen,4773,1
+geneva|phoenix,Geneva,Phoenix,5222,1
+geneva|las-vegas,Geneva,Las Vegas,5182,1
+geneva|los-angeles,Geneva,Los Angeles,5383,1
+geneva|san-francisco,Geneva,San Francisco,5308,1
+geneva|nassau,Geneva,Nassau,4279,1
+geneva|london,Geneva,London,424,0
+geneva|paris,Geneva,Paris,233,0
+geneva|nice,Geneva,Nice,165,0
+geneva|frankfurt,Geneva,Frankfurt,269,0
+geneva|milan,Geneva,Milan,142,0
+geneva|rome,Geneva,Rome,395,0
+geneva|madrid,Geneva,Madrid,579,0
+geneva|ibiza,Geneva,Ibiza,509,0
+geneva|istanbul,Geneva,Istanbul,1088,0
+geneva|moscow,Geneva,Moscow,1371,0
+frankfurt|new-york,Frankfurt,New York,3517,1
+frankfurt|boston,Frankfurt,Boston,3343,1
+frankfurt|chicago,Frankfurt,Chicago,3948,1
+frankfurt|south-florida,Frankfurt,South Florida,4384,1
+frankfurt|miami,Frankfurt,Miami,4402,1
+frankfurt|naples,Frankfurt,Naples,4446,1
+frankfurt|houston,Frankfurt,Houston,4777,1
+frankfurt|aspen,Frankfurt,Aspen,4683,1
+frankfurt|phoenix,Frankfurt,Phoenix,5132,1
+frankfurt|las-vegas,Frankfurt,Las Vegas,5076,1
+frankfurt|los-angeles,Frankfurt,Los Angeles,5274,1
+frankfurt|san-francisco,Frankfurt,San Francisco,5179,1
+frankfurt|nassau,Frankfurt,Nassau,4324,1
+frankfurt|london,Frankfurt,London,362,0
+frankfurt|paris,Frankfurt,Paris,271,0
+frankfurt|nice,Frankfurt,Nice,409,0
+frankfurt|geneva,Frankfurt,Geneva,269,0
+frankfurt|milan,Frankfurt,Milan,294,0
+frankfurt|rome,Frankfurt,Rome,544,0
+frankfurt|madrid,Frankfurt,Madrid,819,0
+frankfurt|ibiza,Frankfurt,Ibiza,777,0
+frankfurt|istanbul,Frankfurt,Istanbul,1059,0
+frankfurt|moscow,Frankfurt,Moscow,1146,0
+milan|new-york,Milan,New York,3665,1
+milan|boston,Milan,Boston,3492,1
+milan|chicago,Milan,Chicago,4133,1
+milan|south-florida,Milan,South Florida,4493,1
+milan|miami,Milan,Miami,4510,1
+milan|naples,Milan,Naples,4561,1
+milan|houston,Milan,Houston,4944,1
+milan|aspen,Milan,Aspen,4902,1
+milan|phoenix,Milan,Phoenix,5351,1
+milan|las-vegas,Milan,Las Vegas,5307,1
+milan|los-angeles,Milan,Los Angeles,5508,1
+milan|san-francisco,Milan,San Francisco,5427,1
+milan|nassau,Milan,Nassau,4421,1
+milan|london,Milan,London,544,0
+milan|paris,Milan,Paris,363,0
+milan|nice,Milan,Nice,141,0
+milan|geneva,Milan,Geneva,142,0
+milan|frankfurt,Milan,Frankfurt,294,0
+milan|rome,Milan,Rome,270,0
+milan|madrid,Milan,Madrid,673,0
+milan|ibiza,Milan,Ibiza,549,0
+milan|istanbul,Milan,Istanbul,948,0
+milan|moscow,Milan,Moscow,1296,0
+rome|new-york,Rome,New York,3907,1
+rome|boston,Rome,Boston,3734,1
+rome|chicago,Rome,Chicago,4389,1
+rome|south-florida,Rome,South Florida,4712,1
+rome|miami,Rome,Miami,4728,1
+rome|naples,Rome,Naples,4783,1
+rome|houston,Rome,Houston,5191,1
+rome|aspen,Rome,Aspen,5168,1
+rome|phoenix,Rome,Phoenix,5617,1
+rome|las-vegas,Rome,Las Vegas,5576,1
+rome|los-angeles,Rome,Los Angeles,5777,1
+rome|san-francisco,Rome,San Francisco,5697,1
+rome|nassau,Rome,Nassau,4632,1
+rome|london,Rome,London,813,0
+rome|paris,Rome,Paris,627,0
+rome|nice,Rome,Nice,267,0
+rome|geneva,Rome,Geneva,395,0
+rome|frankfurt,Rome,Frankfurt,544,0
+rome|milan,Rome,Milan,270,0
+rome|madrid,Rome,Madrid,773,0
+rome|ibiza,Rome,Ibiza,563,0
+rome|istanbul,Rome,Istanbul,779,0
+rome|moscow,Rome,Moscow,1347,0
+madrid|new-york,Madrid,New York,3271,1
+madrid|boston,Madrid,Boston,3102,1
+madrid|chicago,Madrid,Chicago,3813,1
+madrid|south-florida,Madrid,South Florida,4005,1
+madrid|miami,Madrid,Miami,4020,1
+madrid|naples,Madrid,Naples,4081,1
+madrid|houston,Madrid,Houston,4563,1
+madrid|aspen,Madrid,Aspen,4665,1
+madrid|phoenix,Madrid,Phoenix,5104,1
+madrid|las-vegas,Madrid,Las Vegas,5101,1
+madrid|los-angeles,Madrid,Los Angeles,5308,1
+madrid|san-francisco,Madrid,San Francisco,5283,1
+madrid|nassau,Madrid,Nassau,3912,1
+madrid|london,Madrid,London,716,0
+madrid|paris,Madrid,Paris,597,0
+madrid|nice,Madrid,Nice,553,0
+madrid|geneva,Madrid,Geneva,579,0
+madrid|frankfurt,Madrid,Frankfurt,819,0
+madrid|milan,Madrid,Milan,673,0
+madrid|rome,Madrid,Rome,773,0
+madrid|ibiza,Madrid,Ibiza,266,0
+madrid|istanbul,Madrid,Istanbul,1553,0
+madrid|moscow,Madrid,Moscow,1950,0
+ibiza|new-york,Ibiza,New York,3536,1
+ibiza|boston,Ibiza,Boston,3367,1
+ibiza|chicago,Ibiza,Chicago,4073,1
+ibiza|south-florida,Ibiza,South Florida,4270,1
+ibiza|miami,Ibiza,Miami,4285,1
+ibiza|naples,Ibiza,Naples,4347,1
+ibiza|houston,Ibiza,Houston,4829,1
+ibiza|aspen,Ibiza,Aspen,4917,1
+ibiza|phoenix,Ibiza,Phoenix,5358,1
+ibiza|las-vegas,Ibiza,Las Vegas,5349,1
+ibiza|los-angeles,Ibiza,Los Angeles,5556,1
+ibiza|san-francisco,Ibiza,San Francisco,5522,1
+ibiza|nassau,Ibiza,Nassau,4175,1
+ibiza|london,Ibiza,London,797,0
+ibiza|paris,Ibiza,Paris,629,0
+ibiza|nice,Ibiza,Nice,409,0
+ibiza|geneva,Ibiza,Geneva,509,0
+ibiza|frankfurt,Ibiza,Frankfurt,777,0
+ibiza|milan,Ibiza,Milan,549,0
+ibiza|rome,Ibiza,Rome,563,0
+ibiza|madrid,Ibiza,Madrid,266,0
+ibiza|istanbul,Ibiza,Istanbul,1332,0
+ibiza|moscow,Ibiza,Moscow,1843,0
+istanbul|new-york,Istanbul,New York,4575,1
+istanbul|boston,Istanbul,Boston,4402,1
+istanbul|chicago,Istanbul,Chicago,4997,1
+istanbul|south-florida,Istanbul,South Florida,5432,1
+istanbul|miami,Istanbul,Miami,5450,1
+istanbul|naples,Istanbul,Naples,5497,1
+istanbul|houston,Istanbul,Houston,5832,1
+istanbul|aspen,Istanbul,Aspen,5691,1
+istanbul|phoenix,Istanbul,Phoenix,6137,1
+istanbul|las-vegas,Istanbul,Las Vegas,6059,1
+istanbul|los-angeles,Istanbul,Los Angeles,6248,1
+istanbul|san-francisco,Istanbul,San Francisco,6115,1
+istanbul|nassau,Istanbul,Nassau,5365,1
+istanbul|london,Istanbul,London,1418,0
+istanbul|paris,Istanbul,Paris,1279,0
+istanbul|nice,Istanbul,Nice,1022,0
+istanbul|geneva,Istanbul,Geneva,1088,0
+istanbul|frankfurt,Istanbul,Frankfurt,1059,0
+istanbul|milan,Istanbul,Milan,948,0
+istanbul|rome,Istanbul,Rome,779,0
+istanbul|madrid,Istanbul,Madrid,1553,0
+istanbul|ibiza,Istanbul,Ibiza,1332,0
+istanbul|moscow,Istanbul,Moscow,996,0
+moscow|new-york,Moscow,New York,4258,1
+moscow|boston,Moscow,Boston,4093,1
+moscow|chicago,Moscow,Chicago,4535,1
+moscow|south-florida,Moscow,South Florida,5208,1
+moscow|miami,Moscow,Miami,5229,1
+moscow|naples,Moscow,Naples,5253,1
+moscow|houston,Moscow,Houston,5394,1
+moscow|aspen,Moscow,Aspen,5066,1
+moscow|phoenix,Moscow,Phoenix,5492,1
+moscow|las-vegas,Moscow,Las Vegas,5370,1
+moscow|los-angeles,Moscow,Los Angeles,5539,1
+moscow|san-francisco,Moscow,San Francisco,5355,1
+moscow|nassau,Moscow,Nassau,5186,1
+moscow|london,Moscow,London,1418,0
+moscow|paris,Moscow,Paris,1410,0
+moscow|nice,Moscow,Nice,1434,0
+moscow|geneva,Moscow,Geneva,1371,0
+moscow|frankfurt,Moscow,Frankfurt,1146,0
+moscow|milan,Moscow,Milan,1296,0
+moscow|rome,Moscow,Rome,1347,0
+moscow|madrid,Moscow,Madrid,1950,0
+moscow|ibiza,Moscow,Ibiza,1843,0
+moscow|istanbul,Moscow,Istanbul,996,0

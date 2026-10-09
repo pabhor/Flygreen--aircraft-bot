@@ -1,0 +1,7 @@
+category,label,cruise_kts,size_rank,hourly_rate_usd,rate_source,typical_range_hours
+turboprop,Turboprop,280,0,1800,sample_estimate,4.0
+light_jet,Light Jet,400,1,3000,published,3.6
+mid_size_jet,Mid-Size Jet,430,2,4000,published,5.2
+super_mid_size_jet,Super Mid-Size Jet,460,3,4800,published,7.5
+heavy_jet,Heavy Jet,475,4,5800,published,9.0
+long_range_jet,Long Range Jet,490,5,8500,sample_estimate,15.0

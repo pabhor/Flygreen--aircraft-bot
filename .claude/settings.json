@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(py --list)",
+      "PowerShell(python --version)"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+region,origin,destination,light_jet,mid_size_jet,super_mid_size_jet,heavy_jet
+US,New York,South Florida,13000,15000,20000,25000
+US,South Florida,Los Angeles,21000,26000,32000,43000
+US,Los Angeles,New York,21000,26000,32000,43000
+US,Los Angeles,Las Vegas,5000,6500,9000,12000
+US,Los Angeles,Phoenix,5000,6500,9000,12000
+US,Houston,New York,14000,17000,22000,30000
+US,Boston,Naples,14000,17000,22000,30000
+Europe,London,Nice,6000,10500,14500,18000
+Europe,Frankfurt,Paris,5500,9000,13500,16000
+Europe,Madrid,Ibiza,5500,9000,13500,16000
+Europe,Paris,Milan,5500,9000,13500,16000
+Europe,Moscow,London,22000,28000,35000,42000
+Europe,Istanbul,London,22000,28000,35000,42000
+Transatlantic,Los Angeles,London,,,,105000
+Transatlantic,New York,London,,,,95000
+Transatlantic,New York,Paris,,,,98000
+Transatlantic,Nassau,Moscow,,,,110000
+Transatlantic,Miami,Rome,,,,105000
