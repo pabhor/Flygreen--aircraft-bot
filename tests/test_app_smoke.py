@@ -25,9 +25,19 @@ def at():
 def test_app_starts_with_greeting_disclaimer_and_guide(at):
     text = _text(at)
     assert "AI Charter Concierge" in text and "Not affiliated with Flygreen" in text
-    assert "private charter concierge" in text
-    assert "King Air 90" in text and "Global 6000" in text      # gallery rendered
+    assert "private charter concierge" in text and "Flight Matches" in text
     assert "Legal notice" in text
+    at.button(key="rail_guide").click().run()
+    assert not at.exception, at.exception
+    assert "King Air 90" in _text(at) and "Global 6000" in _text(at)
+
+
+def test_route_prices_view_and_handoff_to_chat(at):
+    at.button(key="tile_routes").click().run()
+    assert at.session_state.view == "routes" and at.dataframe
+    next(b for b in at.button if b.label.startswith("Find the best jet")).click().run()
+    assert not at.exception, at.exception
+    assert at.session_state.view == "chat" and at.session_state.messages[-1]["cards"]
 
 
 def test_chat_recommends_and_shows_cards(at):

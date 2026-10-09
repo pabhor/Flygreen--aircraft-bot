@@ -33,22 +33,58 @@ def _img(url: str, alt: str) -> str:
     return f'<img src="{esc(url)}" alt="{esc(alt)}" loading="lazy" referrerpolicy="no-referrer"/>'
 
 
-# ----------------------------------------------------------------- header ----
-def header(aircraft_count: int, route_count: int) -> None:
+# ------------------------------------------------------------ layout bits ---
+def topbar() -> None:
+    _html(
+        '<div class="topbar"><div class="brand"><span class="brand-mark">✈</span>AI Charter Concierge</div>'
+        '<span class="legal-pill" title="Not an official Flygreen product; no endorsement implied.">'
+        "Independent demo concept · Not affiliated with Flygreen</span></div>"
+    )
+
+
+def panel_head(title: str, spark: bool = False) -> None:
+    left = '<div class="panel-spark">✦</div>' if spark else ""
+    _html(f'<div class="panel-head">{left}<p class="panel-title{" center" if spark else ""}">{esc(title)}</p></div>')
+
+
+def greeting(count: int) -> None:
+    _html(
+        f'<div class="greet"><div class="greet-avatar">✈</div><div><div class="greet-hi">Hi there!</div>'
+        f'<div class="greet-q">Which jet can I find for you?</div>'
+        f'<div class="pf-small">Describe your trip in your own words. I compare {count} aircraft for you.</div></div></div>'
+    )
+
+
+def group_label(text: str) -> None:
+    _html(f'<div class="group-label">{esc(text)}</div>')
+
+
+def history_card(cards: list[Candidate], query: str, when: str) -> None:
+    best, rest = cards[0], cards[1:]
+    thumbs = "".join(f'<div class="h-thumb">{_img(c.image_url, c.model_name)}</div>' for c in rest[:2])
+    more = f'<div class="h-more">+{len(rest) - 2}</div>' if len(rest) > 2 else ""
     _html(
         f"""
-        <div class="fg-hero">
-          <div class="fg-hero-top">
-            <span class="fg-eyebrow">Private charter · AI concierge</span>
-            <span class="fg-pill" title="Not an official Flygreen product; no endorsement implied.">
-              Independent demo concept · Not affiliated with Flygreen</span>
-          </div>
-          <p class="fg-title">AI Charter Concierge</p>
-          <p class="fg-subtitle">Tell us about your trip in your own words. Our AI understands what matters to you
-            and recommends the right aircraft from {aircraft_count} jets, with average prices across {route_count} routes.</p>
+        <div class="h-card">
+          <div class="h-top"><div class="h-ico">✈</div>
+            <div><div class="h-title">Aircraft match</div><div class="h-date">{esc(when)}</div></div>
+            <div class="h-arrow">↗</div></div>
+          <div class="h-media"><div class="h-main">{_img(best.image_url, best.model_name)}</div>
+            <div class="h-thumbs">{thumbs}{more}</div></div>
+          <div class="h-foot"><div class="h-ico">🛩</div><div><b>{esc(best.model_name)} · {usd(best.price.amount)}</b>
+            <small>{esc(query)}</small></div></div>
         </div>
         """
     )
+
+
+def history_row(text: str, when: str) -> None:
+    _html(f'<div class="h-row"><span>💬</span><div>{esc(text[:70])}<small>{esc(when)}</small></div></div>')
+
+
+def history_empty() -> None:
+    _html('<div class="h-empty"><div class="big">🛫</div>Your aircraft matches will appear here.<br>'
+          "Start by telling the concierge about your trip.</div>")
 
 
 def terms_note() -> None:
